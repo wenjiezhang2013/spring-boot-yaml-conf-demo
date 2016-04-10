@@ -1,0 +1,9 @@
+spring:
+  profiles.active: unit-test
+
+---
+spring:
+   profiles: unit-test
+   
+name: unit-test
+   
