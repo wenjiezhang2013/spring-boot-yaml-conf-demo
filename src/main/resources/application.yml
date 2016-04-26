@@ -1,7 +1,12 @@
 spring:
-  profiles.active: unit-test
+  profiles.active: default
 ---
 spring:
   profiles: default
 
 name: default
+---
+spring:
+  profiles: unit-test
+
+name: unit-test

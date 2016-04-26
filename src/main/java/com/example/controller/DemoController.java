@@ -9,8 +9,8 @@ import com.example.config.DemoConfig;
 @RestController
 public class DemoController {
 
-	@Autowired
-	private DemoConfig demoConfig;
+    @Autowired
+    private DemoConfig demoConfig;
 
     @RequestMapping("/")
     public String greeting() {
